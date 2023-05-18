@@ -1,0 +1,138 @@
+header{
+	background-color: #a8d7ff;
+	background-size: cover;
+	padding: 10px 5px;
+}
+
+h1{
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	color: #fa14df;
+	text-shadow: -1px 0 #057ef7, 0 1px #057ef7, 1px 0 #057ef7, 0 -1px #057ef7;
+	font-family: Courier New;
+	font-size: 35px;
+}
+
+body{
+	background-color: rgba(255, 255, 255, 0.1);
+	background-image: url(Imagens/80s.jpg);
+	background-blend-mode: overlay;
+	margin: 0;
+	margin-bottom: 50px;
+}
+
+h2{
+	text-align: center;
+	text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+	color: white;
+	font-family: Courier New;
+	font-size: 25px;
+}
+
+p{
+	text-align: justify;
+	color: white;
+	font-family: Courier New;
+	font-size: 16px;
+	text-indent: 3rem;
+	text-shadow: 2px 4px 5px black;
+
+}
+
+.menu ul{
+	list-style: none;
+	margin: -5px;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+	background-color: #057ef7;
+	font-family: Courier New;
+	border: 3px solid #fa14df;
+  border-radius: 10px;
+}
+
+.menu li{
+	margin: 0px, 10px;
+}
+
+.menu li a{
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	text-shadow: 3px 3px 5px black;
+	color: white;
+	font-weight: bold;
+	transition: all 0.3s ease;
+}
+
+.menu li a:hover{
+	background-color: #fa14df;
+	color: white;
+	border-radius: 13px;
+}
+
+.container{
+	margin-top: 20px;
+  display: flex;
+ 	flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+ 	column-gap: 60px;
+}
+
+.esquerda{
+  background-color: rgba(255, 20, 147, 0.7);
+  width: 20em;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.meiop{
+  background-color: rgba(217, 93, 4, 0.7);
+  width: 60em;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+}
+
+.meio{
+  background-color: rgba(217, 93, 4, 0.7);
+  width: 23em;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.direita{
+  background-color: rgba(3, 144, 252, 0.7);
+  width: 20em;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+
+.imagem{
+	text-align: center;
+}
+
+.imgedit{
+	width: 13em;
+	height: 13em;
+	border: 3px solid mediumvioletred;
+  border-radius: 10px;	
+}
+
+footer{
+	background: linear-gradient(68.15deg, #42e0f5 16.62%, #f576f3 85.61%);
+	padding: 3px 3px;
+	text-align: right;
+	color: #fff;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  font-family: calibri;
+}
